@@ -3,21 +3,29 @@
 .. _installation:
 
 ============
-Installation
+Installation using Composer
 ============
 
-Install ReadSpeaker Services like any other extension found on TER, see instructions `here <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/ExtensionInstallation/Index.html#extension-installation>`__.
+Install using composer 
+
+.. code-block:: require readspeaker/readspeaker-services
+
+============
+Installation in Classic Mode
+============
+
+Install ReadSpeaker Services like any other extension found on TER, see instructions `here <https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/Administration/ExtensionManagement/ClassicMode/Index.html>`__.
 
 .. _install_manually:
 
 Install from ZIP File
 =====================
 
-ReadSpeaker for Typo3 can be installed as a local extension from a zip file. You can obtain the zip file from ReadSpeaker support or download it from `TER <https://extensions.typo3.org/extension/readspeaker_services>`__.
+ReadSpeaker for TYPO3 can be installed as a local extension from a zip file. You can obtain the zip file from ReadSpeaker support or download it from `TER <https://extensions.typo3.org/extension/readspeaker_services>`__.
 
 Follow these steps to install the extension:
 
-* Log in to the Typo3 backend using an administrator account.
+* Log in to the TYPO3 backend using an administrator account.
 * Go to the *Admin Tools > Extensions* page.
 * Click on the :guilabel:`Upload` button in the top left corner.
 
@@ -35,4 +43,4 @@ Follow these steps to install the extension:
    :class: with-shadow
    :alt: The extension has been installed
 
-   The extension is now available in your Typo3 website
+   The extension is now available in your TYPO3 website
